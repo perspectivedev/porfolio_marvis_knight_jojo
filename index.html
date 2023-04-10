@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio Of Marvis Knight</title>
 </head>
 <body>
+    <div class="container" id="root">
+        <header class="site-header">
+            <nav class="site-nav">
+                <ul class="nav">
+                    <li class="nav1">Interest</li>
+                    <li class="nav2">Career</li>
+                    <li class="nav3">Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <div class="name">
+            <h1>Marvis Knight (Jojo)</h1>
+        </div>
+        <div class="imgCover">
+            <img src="cover_photo.JPG" class="cover" id="coverPhoto" alt="cover photo">
+        </div>
+        <div class="links">
+            <a href="#">my github</a>
+            <a href="#">my linkedin</a>
+            <a href="knightmar78@gmail.com">my email</a>
+        </div>
+        <div class="table">
+            <h3 class="tableTitle">Technologies</h3>
+            <table class="profile-table">
+                <thead>
+                    <tr>
+                        <th>Front-End</th>
+                        <th>JavaScript</th>
+                        <th>Python</th>
+                        <th>Database</th>
+                        <th>Concepts</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>HTML</td>
+                    <td>Express</td>
+                    <td>Django</td>
+                    <td>MongoDB</td>
+                    <td>AJAX</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Mongoose</td>
+                    <td>Flask</td>
+                    <td>MySQL</td>
+                    <td>OOP</td>
+                </tr>
+                <tr>
+                    <td>Bootstrap</td>
+                    <td>React</td>
+                    <td>Unittest</td>
+                    <td></td>
+                    <td>REST</td>
+                </tr>
+            </table>
+        </div>
+        <div class="contact-section">
+            <h2>Contact Me</h2>
+            <form action="POST">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter Your Name">
+                    <label for="name">Email:</label>
+                    <input type="text" placeholder="Enter Your Email">
+                </div>
+                <div>
+                    <label for="text">Message:</label>
+                    <textarea name="textbox" id="msgMe" cols="30" rows="5"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="foot">
+            <footer class="site-footer">
+                <nav class="footer-nav">
+                    <ul class="nav">
+                        <li class="nav1">Interest</li>
+                        <li class="nav2">Career</li>
+                        <li class="nav3">Contact</li>
+                    </ul>
+                </nav>
+            </footer>
+        </div>
+    </div>
     
 </body>
 </html>
